@@ -1,5 +1,5 @@
 nu1=int(input())
-li1=[int(x) for x in input().split()]
-li1.sort()
+li=[int(x) for x in input().split()]
+li.sort()
 for i in range(nu1) :
-  print(li1[i],end=" ")
+  print(li[i],end=" ")
