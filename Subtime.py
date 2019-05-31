@@ -1,0 +1,5 @@
+hrsi,minsi=input().split()
+hrs1,mins1=input().split()
+a=abs(int(hrsi)-int(hrs1))
+b=abs(int(minsi)-int(mins1))
+print(a,b)
