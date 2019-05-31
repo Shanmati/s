@@ -1,12 +1,11 @@
-n=int(input())
-m=n
-if(n<=100000):
- remain=0
- while(n!=0):
-  num=n%10
-  remainder=remain+num*num*num
-  n=n//10
- if(m==remain):
-  print("yes")
- else:
-  print("no")
+zaw=int(input())
+a=zaw
+s=0
+while zaw>0:
+    r=zaw%10
+    s=s+r**3
+    za=zaw//10
+if s==a:
+    print("yes")
+else:
+    print("no")
